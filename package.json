@@ -1,7 +1,7 @@
 {
   "name": "ialu01",
   "version": "0.1.0",
-  "homepage": "https://Iago-saraiva.github.io/Ialú-Lanches",
+  "homepage": "https://Iago-saraiva.github.io/Ialu-Lanches",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",

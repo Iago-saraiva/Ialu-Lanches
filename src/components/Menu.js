@@ -64,11 +64,12 @@ function Menu({ addToCart }) {
   
   const products8 = [
     { id: 1, name: 'Batida de Vodka com morango', price: 18.0, image: require('../images/batida-morango.jpg') },
-    { id: 2, name: 'Batida de Vodka com morango', price: 18.0, image: require('../images/batida-maracuja.jpg') },
+    { id: 2, name: 'Batida de Vodka com maracujá', price: 18.0, image: require('../images/batida-maracuja.jpg') },
   ]
+
   const products9 = [
     { id: 1, name: 'Batida com morango', price: 18.0, image: require('../images/batida-morango.jpg') },
-    { id: 2, name: 'Batida com morango', price: 18.0, image: require('../images/batida-maracuja.jpg') },
+    { id: 2, name: 'Batida com maracujá', price: 18.0, image: require('../images/batida-maracuja.jpg') },
   ]
   
   return (

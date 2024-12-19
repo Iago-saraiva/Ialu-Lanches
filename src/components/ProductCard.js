@@ -8,9 +8,6 @@ function ProductCard({ product, addToCart }) {
         <h3>{product.name}</h3>
         <p>{product.description}</p>
         <p>R$ {product.price.toFixed(2)}</p>
-        <button className="add-to-cart-btn" onClick={() => addToCart(product)}>
-          Adicionar ao Carrinho
-        </button>
       </div>
     </div>
   );

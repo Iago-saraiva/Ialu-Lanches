@@ -59,7 +59,7 @@ function Menu({ addToCart }) {
     { id: 1, name: 'Skol 350ml', price: 6.0, image: require('../images/skol.jpg') },
     { id: 2, name: 'Brahma 350ml', price: 5.0, image: require('../images/brahma.jpg') },
     { id: 3, name: 'Amstel 350ml', price: 5.0, image: require('../images/amstel.jpg') },
-    { id: 4, name: 'Amstel 350ml', price: 5.0, image: require('../images/heineken.jpg') },
+    { id: 4, name: 'Heineken 350ml', price: 7.0, image: require('../images/heineken.jpg') },
   ]
   
   const products8 = [

@@ -4,39 +4,42 @@ import ProductCard from './ProductCard';
 function Menu({ addToCart }) {
   const products1 = [
     { id: 1, name: 'Pastel de Carne', price: 12.0, image: require('../images/download.jpg') },
-    { id: 2, name: 'Pastel de Carne e Queijo', price: 12.0, image: require('../images/download.jpg') },
-    { id: 3, name: 'Pastel de Presunto e Mussarela', price: 12.0, image: require('../images/download.jpg') },
-    { id: 5, name: 'Pastel de Frango com Catupiry', price: 12.0, image: require('../images/download.jpg') },
-    { id: 5, name: 'Pastel de Queijo', price: 12.0, image: require('../images/download.jpg') },
+    { id: 2, name: 'Pastel de Presunto e Mussarela', price: 12.0, image: require('../images/download.jpg') },
+    { id: 3, name: 'Pastel de Queijo', price: 12.0, image: require('../images/download.jpg') },
+    { id: 5, name: 'Pastel de Carne e Queijo', price: 14.0, image: require('../images/download.jpg') },
+    { id: 6, name: 'Pastel de Mussarela c/ calabresa', price: 14.0, image: require('../images/download.jpg') },
+    { id: 6, name: 'Pastel de Carne c/ palmito', price: 14.0, image: require('../images/download.jpg') },
+    { id: 6, name: 'Pastel de Frango c/ catupiry', price: 14.0, image: require('../images/download.jpg') },
+    { id: 6, name: 'Pastel de Frango c/ bacon', price: 14.0, image: require('../images/download.jpg') },
   ];
   
   const products2 = [
-    { id: 1, name: 'Pastel de 3 Queijos', description: 'Queijo, Mussarela e Catupiry', price: 15.0, image: require('../images/download.jpg') },
-    { id: 2, name: 'Pastel de Pizza', description: 'Presunto, Mussarela, Milho, Azeitona e Orégano', price: 12.0, image: require('../images/download.jpg') },
-    { id: 3, name: 'Pastel de Carne, Bacon e Palmito', price: 14.0, image: require('../images/download.jpg') },
-    { id: 4, name: 'Pastel de Franbacon', description: 'Frango e Bacon', price: 12.0, image: require('../images/download.jpg') },
-    { id: 5, name: 'Pastel de Strogonoff', description: 'Frango, Milho, Mussarela, Creme de Leite e Palmito', price: 15.0, image: require('../images/download.jpg') },
-    { id: 6, name: 'Pastel A moda da casa', description: 'Carne, Azeitona, Tomate, Milho, Palmito e Bacon', price: 14.0, image: require('../images/download.jpg') },
-    { id: 7, name: 'Pastel Hot Dog', description: 'Salsicha, Milho e Mussarela', price: 12.0, image: require('../images/download.jpg') },
-    { id: 8, name: 'Pastel Costela', description: 'Costela e Mussarala', price: 20.0, image: require('../images/download.jpg') },
-    { id: 8, name: 'Pastel Ialu', description: 'Carne, Frango, Bacon, Azeitona, Mussarela, Presunto, Palmito, Orégano, Milho, Tomate e Catupiry', price: 18.0, image: require('../images/download.jpg') },
+    { id: 1, name: 'Pastel de pizza', description: 'Presunto, Mussarela, Òregano, Tomate, Azeitona e Milho', price: 15.0, image: require('../images/download.jpg') },
+    { id: 2, name: 'Pastel 3 Sabores', description: 'Carne moida, Bacon e Queijo', price: 15.0, image: require('../images/download.jpg') },
+    { id: 3, name: 'Pastel 3 Queijos', description: 'Mussarela, Queijo e Catupiry', price: 14.0, image: require('../images/download.jpg') },
+    { id: 4, name: 'Pastel de Carne A Moda da Casa', description: 'Carne Moida, Mussarela, Palmito, Bacon e Azeitona', price: 16.0, image: require('../images/download.jpg') },
+    { id: 5, name: 'Pastel de Strogonoff', description: 'Frango Desfiado, Milho, Creme de Leite e Azeitona', price: 16.0, image: require('../images/download.jpg') },
+    { id: 6, name: 'Pastel Especial', description: 'Mussarela, Catupiry, Bacon e Palmito', price: 18.0, image: require('../images/download.jpg') },
+    { id: 7, name: 'Pastel Costela', description: 'Costela desfiada e Mussarala', price: 20.0, image: require('../images/download.jpg') },
+    { id: 8, name: 'Pastel Ialu', description: 'Carne Moida, Frango desfiado, Bacon, Azeitona, Mussarela, Presunto, Palmito, Orégano, Milho, Tomate e Catupiry', price: 18.0, image: require('../images/download.jpg') },
   ];
 
   const products3 = [
-    { id: 1, name: 'X Salada', description: 'Pão, Alface, Tomate, Hamburguer, Presunto, Mussarela, Batata palha e Milho', price: 16.0, image: require('../images/hamburguer.jpeg') },
+    { id: 1, name: 'X Salada', description: 'Pão, Maionese, Alface, Tomate, Hamburguer, Presunto, Mussarela, Batata palha e Milho', price: 16.0, image: require('../images/hamburguer.jpeg') },
     { id: 2, name: 'X dog', description: 'Pão, Maionese, Alface, Tomate, Salsicha, Batata Palha, Milho' , price: 15.0, image: require('../images/hamburguer.jpeg') },
-    { id: 3, name: 'X bacon', description: 'Pão,Maionese, Hamburguer, Ovo, Bacon, Presunto, Mussarela, Batata Palha', price: 18.0, image: require('../images/hamburguer.jpeg') },
-    { id: 4, name: 'X egg', description: 'Pão, Maionese, Alface, Tomate, 2 Ovos, Batata Palha, Milho', price: 15.0, image: require('../images/hamburguer.jpeg') },
+    { id: 3, name: 'X bacon', description: 'Pão, Maionese, Alface, Tomate, Hamburguer, Ovo, Bacon, Presunto, Mussarela, Batata Palha', price: 18.0, image: require('../images/hamburguer.jpeg') },
+    { id: 4, name: 'X egg', description: 'Pão, Maionese, Alface, Tomate, 2 Ovos, Mussarela, Milho', price: 15.0, image: require('../images/hamburguer.jpeg') },
     { id: 5, name: 'X tudo', description: 'Pão, Maionese, Alface, Tomate, Hamburguer, Ovo, Salsicha, Bacon, Presunto, Mussarela, Batata Palha, Milho, Cheddar', price: 22.0, image: require('../images/hamburguer.jpeg') },
     { id: 6, name: 'X ialu', description: 'Pão, Maionese, Alface, Tomate, Hamburguer, Presunto, Mussarela, 2 Ovos, 2 Salsichas, Bacon, Cheddar, Filé de Frango, Lombo, Batata Palha, Milho', price: 30.0, image: require('../images/hamburguer.jpeg') },
-    { id: 7, name: 'x franbacon', description: 'Pão, Maionese, Filé de Frango, Presunto, Mussarela, Bacon, Batata Palha, Milho, Alface, Tomate', price: 20.0, image: require('../images/hamburguer.jpeg') },
+    { id: 7, name: 'x franbacon', description: 'Pão, Maionese, Aface, Tomate, Filé de Frango, Bacon, Presunto, Mussarela, Batata Palha, Milho', price: 22.0, image: require('../images/hamburguer.jpeg') },
+    { id: 7, name: 'x lombo', description: 'Pão, Maionese, Aface, Tomate, Lombo, Ovo, Presunto, Mussarela, Batata Palha', price: 24.0, image: require('../images/hamburguer.jpeg') },
   ];
 
   const products4 = [
     { id: 1, name: 'Porção de almondega com mandioca', price: 45.0,  image: require('../images/porcao-mandioca.jpg') },
     { id: 2, name: 'Porção de batata', description: 'Batata, Bacon e Cheddar', price: 35.0,  image: require('../images/batata-porcao.jpg') },
-    { id: 3, name: 'Torre de Batata Média', description: 'Batata, Presunto, Mussarela Cheddar, Calabresa, Bacon, Catupiry', price: 70.0, image: require('../images/torre-batata.jpg') },
-    { id: 4, name: 'Torre de Batata Grande', description: 'Batata, Presunto, Mussarela Cheddar, Calabresa, Bacon, Catupiry', price: 96.0, image: require('../images/torre-batata.jpg') },
+    { id: 3, name: 'Torre de Batata Média', description: 'Batata, Mussarela Cheddar, Calabresa, Bacon, Catupiry', price: 70.0, image: require('../images/torre-batata.jpg') },
+    { id: 4, name: 'Torre de Batata Grande', description: 'Batata, Mussarela Cheddar, Calabresa, Bacon, Catupiry', price: 96.0, image: require('../images/torre-batata.jpg') },
   ]
 
   const products5 = [
@@ -56,10 +59,12 @@ function Menu({ addToCart }) {
   ]
   
   const products7 = [
-    { id: 1, name: 'Skol 350ml', price: 6.0, image: require('../images/skol.jpg') },
+    { id: 1, name: 'Skol 350ml', price: 5.50, image: require('../images/skol.jpg') },
     { id: 2, name: 'Brahma 350ml', price: 5.0, image: require('../images/brahma.jpg') },
     { id: 3, name: 'Amstel 350ml', price: 5.0, image: require('../images/amstel.jpg') },
     { id: 4, name: 'Heineken 350ml', price: 7.0, image: require('../images/heineken.jpg') },
+    { id: 5, name: 'Antarctica 350ml', price: 5.0, image: require('../images/Antarctica.png') },
+    { id: 6, name: 'Kaiser 350ml', price: 5.0, image: require('../images/kaiser.jpg') },
   ]
   
   const products8 = [
@@ -74,7 +79,9 @@ function Menu({ addToCart }) {
   
   return (
     <section className="menu">
-      <h2>Pasteis simples</h2>
+
+
+      <h2>Pasteis Simples</h2>
       <div className="product-list">
         {products1.map((product) => (
           <ProductCard key={product.id} product={product} addToCart={addToCart} />
@@ -128,6 +135,9 @@ function Menu({ addToCart }) {
           <ProductCard key={product.id} product={product} addToCart={addToCart} />
         ))}
       </div>
+      
+    <h2>Pedido minímo para entrega 24 reais.</h2>
+    <h2>Taxa de entrega a partir de: 8 reais.</h2>
     </section>
   );
 }

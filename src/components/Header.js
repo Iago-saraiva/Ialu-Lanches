@@ -10,9 +10,6 @@ function Header() {
       </div>
       <h1>Pastelaria e Hamburgueria</h1>
       </div>
-      <div>
-        
-      </div>
     </header>
   );
 }

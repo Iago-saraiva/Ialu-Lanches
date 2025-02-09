@@ -9,7 +9,7 @@ function ProductCard({ product, addToCart }) {
         <p>{product.description}</p>
         <p>R$ {product.price.toFixed(2)}</p>
       </div>
-    </div>
+    </div>   
   );
 }
 

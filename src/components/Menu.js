@@ -21,7 +21,7 @@ function Menu({ addToCart }) {
     { id: 5, name: 'Pastel de Strogonoff', description: 'Frango Desfiado, Milho, Creme de Leite e Azeitona', price: 16.0, image: require('../images/download.jpg') },
     { id: 6, name: 'Pastel Especial', description: 'Mussarela, Catupiry, Bacon e Palmito', price: 18.0, image: require('../images/download.jpg') },
     { id: 7, name: 'Pastel Costela', description: 'Costela desfiada e Mussarala', price: 20.0, image: require('../images/download.jpg') },
-    { id: 8, name: 'Pastel Ialu', description: 'Carne Moida, Frango desfiado, Bacon, Azeitona, Mussarela, Presunto, Palmito, Orégano, Milho, Tomate e Catupiry', price: 18.0, image: require('../images/download.jpg') },
+    { id: 8, name: 'Pastel Ialu', description: 'Carne Moida, Frango desfiado, Bacon, Azeitona, Mussarela, Presunto, Palmito, Orégano, Milho, Tomate e Catupiry', price: 22.0, image: require('../images/download.jpg') },
   ];
 
   const products3 = [

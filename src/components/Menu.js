@@ -3,20 +3,20 @@ import ProductCard from './ProductCard';
 
 function Menu({ addToCart }) {
   const products1 = [
-    { id: 1, name: 'Pastel de Carne', price: 12.0, image: require('../images/download.jpg') },
-    { id: 2, name: 'Pastel de Presunto e Mussarela', price: 12.0, image: require('../images/download.jpg') },
-    { id: 3, name: 'Pastel de Queijo', price: 12.0, image: require('../images/download.jpg') },
-    { id: 5, name: 'Pastel de Carne e Queijo', price: 14.0, image: require('../images/download.jpg') },
-    { id: 6, name: 'Pastel de Mussarela c/ calabresa', price: 14.0, image: require('../images/download.jpg') },
-    { id: 6, name: 'Pastel de Carne c/ palmito', price: 14.0, image: require('../images/download.jpg') },
-    { id: 6, name: 'Pastel de Frango c/ catupiry', price: 14.0, image: require('../images/download.jpg') },
-    { id: 6, name: 'Pastel de Frango c/ bacon', price: 14.0, image: require('../images/download.jpg') },
+    { id: 1, name: 'Pastel de Carne', price: 14.0, image: require('../images/download.jpg') },
+    { id: 2, name: 'Pastel de Presunto e Mussarela', price: 14.0, image: require('../images/download.jpg') },
+    { id: 3, name: 'Pastel de Queijo', price: 14.0, image: require('../images/download.jpg') },
+    { id: 5, name: 'Pastel de Carne e Queijo', price: 15.0, image: require('../images/download.jpg') },
+    { id: 6, name: 'Pastel de Mussarela c/ calabresa', price: 15.0, image: require('../images/download.jpg') },
+    { id: 6, name: 'Pastel de Carne c/ palmito', price: 15.0, image: require('../images/download.jpg') },
+    { id: 6, name: 'Pastel de Frango c/ catupiry', price: 15.0, image: require('../images/download.jpg') },
+    { id: 6, name: 'Pastel de Frango c/ bacon', price: 15.0, image: require('../images/download.jpg') },
   ];
   
   const products2 = [
     { id: 1, name: 'Pastel de pizza', description: 'Presunto, Mussarela, Òregano, Tomate, Azeitona e Milho', price: 15.0, image: require('../images/download.jpg') },
     { id: 2, name: 'Pastel 3 Sabores', description: 'Carne moida, Bacon e Queijo', price: 15.0, image: require('../images/download.jpg') },
-    { id: 3, name: 'Pastel 3 Queijos', description: 'Mussarela, Queijo e Catupiry', price: 14.0, image: require('../images/download.jpg') },
+    { id: 3, name: 'Pastel 3 Queijos', description: 'Mussarela, Queijo e Catupiry', price: 15.0, image: require('../images/download.jpg') },
     { id: 4, name: 'Pastel de Carne A Moda da Casa', description: 'Carne Moida, Mussarela, Palmito, Bacon e Azeitona', price: 16.0, image: require('../images/download.jpg') },
     { id: 5, name: 'Pastel de Strogonoff', description: 'Frango Desfiado, Milho, Creme de Leite e Azeitona', price: 16.0, image: require('../images/download.jpg') },
     { id: 6, name: 'Pastel Especial', description: 'Mussarela, Catupiry, Bacon e Palmito', price: 18.0, image: require('../images/download.jpg') },

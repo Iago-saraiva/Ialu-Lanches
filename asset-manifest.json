@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ialu-Lanches/static/css/main.8bc7a672.css",
-    "main.js": "/Ialu-Lanches/static/js/main.d6f74c4f.js",
+    "main.js": "/Ialu-Lanches/static/js/main.078cd8d4.js",
     "static/js/488.997b40f8.chunk.js": "/Ialu-Lanches/static/js/488.997b40f8.chunk.js",
     "static/media/Antarctica.png": "/Ialu-Lanches/static/media/Antarctica.71a7ab2a710d87aed1aa.png",
     "static/media/fundo.png": "/Ialu-Lanches/static/media/fundo.b1c3146a2bac323506b8.png",
@@ -9,11 +9,11 @@
     "static/media/porcao-mandioca.jpg": "/Ialu-Lanches/static/media/porcao-mandioca.1e677f3ea642793f2e57.jpg",
     "index.html": "/Ialu-Lanches/index.html",
     "main.8bc7a672.css.map": "/Ialu-Lanches/static/css/main.8bc7a672.css.map",
-    "main.d6f74c4f.js.map": "/Ialu-Lanches/static/js/main.d6f74c4f.js.map",
+    "main.078cd8d4.js.map": "/Ialu-Lanches/static/js/main.078cd8d4.js.map",
     "488.997b40f8.chunk.js.map": "/Ialu-Lanches/static/js/488.997b40f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8bc7a672.css",
-    "static/js/main.d6f74c4f.js"
+    "static/js/main.078cd8d4.js"
   ]
 }
